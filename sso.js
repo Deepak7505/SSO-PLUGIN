@@ -5,7 +5,7 @@ const ShopifyStrategy = require('passport-shopify').Strategy;
 const { API_KEY, API_SECRET_KEY, SESSION_SECRET } = require('./constat');
 
  
-
+ 
 const app = express();
 
 app.use(session({ secret: SESSION_SECRET, resave: true, saveUninitialized: true }));
@@ -14,7 +14,7 @@ app.use(passport.initialize());
 app.use(passport.session()); 
 
 
-
+// 
  
 passport.use(
   new ShopifyStrategy(
