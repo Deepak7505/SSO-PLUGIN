@@ -1,0 +1,24 @@
+{
+  "name": "koashopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sso.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon sso.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.2.0",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "koa-session": "^6.4.0",
+    "passport": "^0.7.0",
+    "passport-shopify": "^0.1.2"
+  }
+}
